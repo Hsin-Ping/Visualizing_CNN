@@ -112,7 +112,8 @@ if __name__ == "__main__":
             
     all_images = np.vstack((row1, row2))
             
-    cv2.imshow("img", all_images)
+    cv2.imshow("result", all_images)
+    cv2.imwrite("./data/result.jpg", all_images)
     cv2.waitKey(0)    
     cv2.destroyAllWindows()
     
