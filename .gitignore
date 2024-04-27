@@ -1,0 +1,12 @@
+# Ignore Mac system files
+.DS_store
+.ipynb_checkpoints
+
+# Ignore unrelated folder
+
+# Ingore .pyc file
+lib/__pycache__/
+lib/models/__pycache__
+__pycache__
+
+#noneed file
